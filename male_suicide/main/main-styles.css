@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: whitesmoke;
+}
+
+html {
+    background-image: url("main-background.jpg")
 }
 
 .container {
@@ -43,7 +48,7 @@ li {
     height: 15rem;
     margin-top: 2rem;
     width: 15%;
-    border: 2px solid red;
+    border: 7px solid #555369;
 }
 
 #box2 {
@@ -51,7 +56,7 @@ li {
     align-items: center;
     margin-top: 2rem;
     width: 15%;
-    border: 2px solid green;
+    border: 7px solid #555369;
     
 }
 
@@ -60,7 +65,7 @@ li {
     align-items: center;
     margin-top: 2rem;
     width: 15%;
-    border: 2px solid blue;
+    border: 7px solid #555369;
 }
 
 .boxes2 {
@@ -74,7 +79,7 @@ li {
     margin-top: 2rem;
     width: 50%;
     height: 13rem;
-    border: 2px solid orange;
+    border: 7px solid #555369;
 }
 
 .boxes3 {
@@ -89,13 +94,12 @@ li {
     margin-top: 2rem;
     width: 50%;
     height: 13rem;
-    border: 2px solid purple;
+    border: 7px solid #555369;
 }
 
 .footer {
     display: flex;
     align-items: center;
-    border: 2px solid red;
     justify-content: flex-end;
 }
 
