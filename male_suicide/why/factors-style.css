@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #F5FFFA;
+    color: black;
     font-family: sans-serif;
 }
 html {
@@ -19,6 +19,19 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.container-fluid {
+    background-color: dimgray;
+    display:block;
+    position:fixed;
+    width:897px;
+    height:150px;
+    border-bottom: 5px solid brown;
+    text-align:center;
+    margin: auto;
+   
+}
+
 h1 {
     text-align: center;
     color: #ADD8E6;
