@@ -1,104 +1,61 @@
-*{
-    box-sizing:border-box;
-}
-
-
 
 body{
-    
-   
+    width:1333px;
 }
 
-.container-fluid {
-    background-color: dimgray;
-    display:block;
-    position:fixed;
-    width:897px;
-    height:150px;
-    border-bottom: 5px solid brown;
-    text-align:center;
-    margin: auto;
-   
+main{
+    height:800px;
+    width:800px;
+    margin:auto;
 }
-nav ul {
-    margin-top: 3rem;
+
+.container {
     display: flex;
-    justify-content: center;
-   
-    }
-
-li {
-    margin-right: 3rem;
-    list-style-type: none;
-    font-size: 1.5rem;
-    color: black;
+    flex-direction: column;
+    align-items: center;
 }
-
-.banner-ke{
-padding-top:100px;    
-width:100%;
-    
+h1 {
+    text-align: center;
 }
-
-.suicide-awareness-box{
+/*.main-nav {*/
+/*    margin-top: 2rem;*/
+/*    margin-left: 8rem;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
+/*.main-nav li {*/
+/*    margin-right: 10rem;*/
+/*}*/
+.main {
     display: flex;
+    justify-content: space-around;
+    padding-top:150px;
 }
 
-.suicide-filter{
-    padding: 5px;
-    background-color: dimgray;
+.col-sm-3{
+    padding-right:20px;
+    padding-left:20px;
 }
-
-.middle-content{
- padding-left:40px;
- padding-right:40px;
- background-color: oldlace;
-}
-.p-ke{
-    font-size: x-large;
-    padding-left:70px;
-    padding-right:70px;
-    padding-bottom:30px;
-    
-}
-
-
-
-.images{
-    display:flex;
-    flex-direction:column;
-    
-}
-.learn-more{
-    border: 1px solid black;
-}
-
-.learn-more h2{
-    text-align:center;
-    font-size: xx-large;
-}
-
-.men1-ke h2{
-   font-size: xx-large; 
-   text-align:center;
-}
-.list-ke li{
-  font-size:xx-large;  
-}
-
-
-.suicide-image-1{
-     
-}
-
-.suicide-image-2{
- 
-}
-
-footer {
-    font-size: 2rem;
-    background-color:whitesmoke;
-    text-align: right;
-    padding:20px;
-    
-}
+/*.center {*/
+/*    border: 2px solid green;*/
+/*    width: 60%;*/
+/*}*/
+/*.right-pane {*/
+/*    border: 2px solid purple;*/
+/*    width: 25%;*/
+/*}*/
+/*.left-pane {*/
+/*    display: flex;*/
+/*    justify-content: flex-start;*/
+/*    border: 2px solid red;*/
+/*    width: 15%;*/
+/*}*/
+/*footer {*/
+/*    text-align: right;*/
+/*}*/
+/*.center h2 {*/
+/*    text-align: center;*/
+/*}*/
+/*.right-pane h2 {*/
+/*    text-align: center;*/
+/*}*/
