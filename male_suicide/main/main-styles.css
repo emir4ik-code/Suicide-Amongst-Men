@@ -20,11 +20,15 @@
 }
 @media only screen and (min-width: 1400px) {
 }
+
+h1 {
+    text-align: center;
+}
   .facts {
     margin-top: 5%;
   }
 .video {
-  height: 500px;
+  height: 400px;
 }
 iframe {
   width: 100%;
