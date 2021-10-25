@@ -1,0 +1,35 @@
+.box-1 {
+    margin-top: 10%;
+}
+.facts, .video{
+  height: 400px;
+}
+.facts h1 {
+  font-size: 50px;
+}
+    #carouselExampleIndicators {
+        margin-top: 20%;
+    }
+    .navbar {
+        height: 100px;
+    }
+@media only screen and (min-width: 768px) {
+  .facts {
+    margin-top: 10%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+}
+  .facts {
+    margin-top: 5%;
+  }
+.video {
+  height: 500px;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+}
+.copyright {
+   margin-right: 20px;
+}
